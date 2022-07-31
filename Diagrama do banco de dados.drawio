@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" modified="2022-07-31T04:39:14.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HRWp1GQvz60wBuJsQKjq" version="20.2.2" type="github">
+  <diagram id="BOzq1ycBuq9gtWR7NXJR" name="Página-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E6sfzayC-DpatCv2bmXt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E6sfzayC-DpatCv2bmXt-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-1" value="Review" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-4" value="Reviewer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="80" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E6sfzayC-DpatCv2bmXt-5" target="E6sfzayC-DpatCv2bmXt-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E6sfzayC-DpatCv2bmXt-5" target="E6sfzayC-DpatCv2bmXt-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E6sfzayC-DpatCv2bmXt-5" target="E6sfzayC-DpatCv2bmXt-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-5" value="Pokemon" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-6" value="Category" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="E6sfzayC-DpatCv2bmXt-9" target="E6sfzayC-DpatCv2bmXt-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-9" value="Owner" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-11" value="Country" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-13" value="Pokemon" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="90" y="470" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-14" value="Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-13" vertex="1">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-15" value="Name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-13" vertex="1">
+          <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-16" value="BirthDate" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-13" vertex="1">
+          <mxGeometry x="10" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-17" value="&amp;lt;Reviews&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-13" vertex="1">
+          <mxGeometry x="10" y="115" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-18" value="&amp;lt;PokemonOwners&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-13" vertex="1">
+          <mxGeometry x="10" y="140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-19" value="&amp;lt;PokemonCategories&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-13" vertex="1">
+          <mxGeometry x="10" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-20" value="Owner" style="swimlane;" parent="1" vertex="1">
+          <mxGeometry x="290" y="470" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-21" value="Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-20" vertex="1">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-22" value="Name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-20" vertex="1">
+          <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-23" value="Gym" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-20" vertex="1">
+          <mxGeometry x="10" y="90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-24" value="Country" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-20" vertex="1">
+          <mxGeometry x="10" y="115" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-25" value="&amp;lt;PokemonOwners&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-20" vertex="1">
+          <mxGeometry x="10" y="140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-27" value="Country" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="490" y="470" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-28" value="Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-27" vertex="1">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-29" value="Name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-27" vertex="1">
+          <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-30" value="&lt;i&gt;&lt;b&gt;&amp;lt;Owners&amp;gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-27" vertex="1">
+          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-33" value="PokemonOwner (Join)" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="700" y="470" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-34" value="PokemonId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-33" vertex="1">
+          <mxGeometry x="10" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-35" value="OwnerId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-33" vertex="1">
+          <mxGeometry x="10" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-37" value="Pokemon" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-33" vertex="1">
+          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-38" value="Owner" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-33" vertex="1">
+          <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-39" value="PokemonCategory (Join)" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="700" y="720" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-40" value="PokemonId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-39" vertex="1">
+          <mxGeometry x="10" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-41" value="CategoryId" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-39" vertex="1">
+          <mxGeometry x="10" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-42" value="Pokemon" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-39" vertex="1">
+          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-43" value="Category" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=3" parent="E6sfzayC-DpatCv2bmXt-39" vertex="1">
+          <mxGeometry x="10" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-44" value="Category" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="90" y="720" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-45" value="Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-44" vertex="1">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-46" value="Name" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-44" vertex="1">
+          <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-47" value="&lt;i&gt;&lt;b&gt;&amp;lt;PokemonCategories&amp;gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-44" vertex="1">
+          <mxGeometry x="10" y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-48" value="Review" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="290" y="720" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-49" value="Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-48" vertex="1">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-50" value="Title" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-48" vertex="1">
+          <mxGeometry x="10" y="60" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-51" value="&lt;i&gt;&lt;b&gt;&amp;lt;Reviewer&amp;gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-48" vertex="1">
+          <mxGeometry x="10" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-52" value="Text" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-48" vertex="1">
+          <mxGeometry x="10" y="90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-58" value="&lt;i&gt;&lt;b&gt;&amp;lt;Pokemon&amp;gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-48" vertex="1">
+          <mxGeometry x="10" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-53" value="Reviewer" style="swimlane;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="490" y="720" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-54" value="Id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-53" vertex="1">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-55" value="FirstName" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-53" vertex="1">
+          <mxGeometry x="10" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-56" value="&lt;i&gt;&lt;b&gt;&amp;lt;Reviews&amp;gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-53" vertex="1">
+          <mxGeometry x="10" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6sfzayC-DpatCv2bmXt-57" value="LastName" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="E6sfzayC-DpatCv2bmXt-53" vertex="1">
+          <mxGeometry x="10" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
